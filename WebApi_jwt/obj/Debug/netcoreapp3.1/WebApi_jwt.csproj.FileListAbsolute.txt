@@ -1,0 +1,15 @@
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.exe
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.csprojAssemblyReference.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.AssemblyInfoInputs.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.AssemblyInfo.cs
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.RazorTargetAssemblyInfo.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\staticwebassets\WebApi_jwt.StaticWebAssets.Manifest.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\staticwebassets\WebApi_jwt.StaticWebAssets.xml
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.csproj.CopyComplete
