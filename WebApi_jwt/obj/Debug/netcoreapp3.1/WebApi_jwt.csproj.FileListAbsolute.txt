@@ -13,3 +13,17 @@ C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Micros
 C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.csproj.CopyComplete
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.deps.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.runtimeconfig.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.runtimeconfig.dev.json
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\WebApi_jwt.pdb
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.csproj.CoreCompileInputs.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.dll
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.pdb
+C:\Users\alext\source\repos\WebApi_jwt\WebApi_jwt\obj\Debug\netcoreapp3.1\WebApi_jwt.genruntimeconfig.cache

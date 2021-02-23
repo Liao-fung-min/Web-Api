@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +27,7 @@ namespace WebApi_jwt.Controllers
         }
         [HttpGet]
         public IActionResult Login(string username, string password)
+        
         {
 
             UserModel login = new UserModel();
@@ -41,6 +43,7 @@ namespace WebApi_jwt.Controllers
                 responese = Ok(new { token = tokenstr });
 
             }
+            return responese;
 
         }
         private UserModel AuthenticateUser(UserModel login)
@@ -48,7 +51,7 @@ namespace WebApi_jwt.Controllers
             UserModel user = null;
             if (login.Username == "ALEX" && login.Password == "123")
             {
-                user = new UserModel { Username = "alex", EmailAddress = "AAAA@gmail.com", Password = "123" };
+                user = new UserModel { Username = "liaofungmin", EmailAddress = "abcdefghijklmnopgrstu@gmail.com", Password = "123" };
 
             }
             return user;
@@ -56,7 +59,7 @@ namespace WebApi_jwt.Controllers
 
         private string GenerateJSONWebToken(UserModel userinfo)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt: Key"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var clasmis = new[]
@@ -72,9 +75,27 @@ namespace WebApi_jwt.Controllers
                     issuer: _config["Jwt:Issur"],
                     audience: _config["Jwt:Issur"],
                     clasmis,
-                    expires: DateTime.Now.AddSeconds(60),
+                    expires: DateTime.Now.AddMinutes(120),
                     signingCredentials: credentials
                 );
+            var encodetoken = new JwtSecurityTokenHandler().WriteToken(token);
+            return encodetoken;
+        }
+        //[Authorize]
+        [HttpPost("Post")]
+        public string Post() {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            IList<Claim> claim = identity.Claims.ToList();
+            var username = claim[0].Value;
+            return "Welcome To:" + username;
+          
+        }
+        //[Authorize]
+        [HttpGet("GetValue")]
+        public ActionResult<IEnumerable<string>> Get() {
+
+            return new string[] { "Value1", "Value2", "Value3" };
+        
         }
     }
 
