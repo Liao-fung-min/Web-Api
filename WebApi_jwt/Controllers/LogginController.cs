@@ -81,13 +81,14 @@ namespace WebApi_jwt.Controllers
             var encodetoken = new JwtSecurityTokenHandler().WriteToken(token);
             return encodetoken;
         }
-        //[Authorize]
-        [HttpPost("Post")]
+        [Authorize]
+        [HttpPost("~/scuess")]
         public string Post() {
-            var identity = HttpContext.User.Identity as ClaimsIdentity;
-            IList<Claim> claim = identity.Claims.ToList();
-            var username = claim[0].Value;
-            return "Welcome To:" + username;
+            //var identity = HttpContext.User.Identity as ClaimsIdentity;
+            //IList<Claim> claim = identity.Claims.ToList();
+            //var username = claim[1].Value;
+            //var username = "ALEX";
+            return "成功";
           
         }
         //[Authorize]
